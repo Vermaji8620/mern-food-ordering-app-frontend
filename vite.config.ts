@@ -7,7 +7,7 @@ export default defineConfig({
     chunkSizeWarningLimit: 500,
     cssCodeSplit: true,
     manifest: true,
-    outDir: "build",
+    outDir: "dist",
     rollupOptions: {
       output: {
         manualChunks: {
