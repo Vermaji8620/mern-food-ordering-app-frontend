@@ -81,7 +81,7 @@ export const useUpdateMyUser = () => {
   const mutation = useMutation({ mutationFn: updateMyUserRequest });
 
   const {
-    mutateAsync: updateUser,  // mutateSync ka andar me ek function hai, jise hmne updateUser ke naam se rename kiya hai....aur 
+    mutateAsync: updateUser, // mutateSync ka andar me ek function hai, jise hmne updateUser ke naam se rename kiya hai....aur
     isPending,
     isSuccess,
     error,
